@@ -1,0 +1,23 @@
+{
+    "name": "andrey/easy-cicd",
+    "description": "Test CI",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "EasyCicd\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Andrey Savrasov",
+            "email": "savrasov.dev@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.7"
+    },
+    "scripts": {
+        "cs": "phpcs --standard=PSR12",
+        "cbf": "phpcbf --standard=PSR12"
+    }
+}
